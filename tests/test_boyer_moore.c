@@ -13,7 +13,7 @@ void run_tests() {
     assert(boyer_moore_search_no_table("same", "same") == 0);
     assert(boyer_moore_search_no_table("aaaaaa", "aa") == 0);
     assert(boyer_moore_search_no_table("ABACADABRAC", "ABRA") == 6);
-    printf("All tests passed!\n");
+    printf("All passed!\n");
 }
 
 int main() {
