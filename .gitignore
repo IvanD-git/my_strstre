@@ -1,0 +1,26 @@
+# Build directories
+build/
+_build/
+
+# Executables (Windows)
+*.exe
+*.dll
+*.pdb
+
+# Object files
+*.o
+*.obj
+
+# CMake temporary files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+_Deps/
+
+# IDE files
+.vscode/
+*.suo
+*.user
+*.sln
+*.vcxproj*
